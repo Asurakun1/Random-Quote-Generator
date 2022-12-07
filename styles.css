@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+main{
+    margin: 25vh auto;
+}
+
+div{
+    position: relative;
+    border: 1px solid black;
+    margin: 0 auto;
+    min-width: 20vh;
+    max-width: 60vh;
+    min-height: 35vh;
+}
+
+div button{
+    position: absolute;
+    cursor: pointer;
+    min-height: 4vh;
+    min-width: 5vw;
+    right: 3vw;
+    bottom: 4vh;
+    font-size: 1.1rem;
+}
