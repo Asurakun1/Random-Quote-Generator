@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+main{
+    margin: 25vh auto;
+}
+
+.block{
+    display: flex;
+    position: relative;
+    border: 0.2rem solid black;
+    margin: 0 auto;
+    min-width: 20vh;
+    max-width: 75vh;
+    min-height: 35vh;
+    border-radius: 10%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div button{
+    position: absolute;
+    cursor: pointer;
+    min-height: 4vh;
+    min-width: 6vw;
+    right: 3vw;
+    bottom: 4vh;
+    font-size: 1.1rem;
+    border-radius: 10%;
+}
+
+
+div blockquote{
+    margin-bottom: 7vh;
+    font-size: 2.5rem;
+    word-wrap: break-word;
+}
+
+.author{
+    position: absolute;
+    right: 3vw;
+    bottom: 6.7vh;
+    font-size: 1.5rem;
+}
